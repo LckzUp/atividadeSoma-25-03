@@ -7,7 +7,7 @@ public class VerificaAprovacao {
         int alunoAtual = 1;
        
         do {
-            System.out.println("\033c");
+            //System.out.println("\033c");
             System.out.println("Aluno " + alunoAtual + " - Digite as tres notas do aluno");
             System.out.print("Digite a primeira nota --> ");
             double nota1 = scanner.nextDouble();
